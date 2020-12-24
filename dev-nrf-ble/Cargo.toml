@@ -1,0 +1,11 @@
+[package]
+name = "nrf-ble"
+version = "0.1.0"
+authors = ["Alexandra Clifford <a13xandra.cliff0rd@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+linux-kernel-module = { path = ".." }
